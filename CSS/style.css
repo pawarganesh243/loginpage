@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins" , sans-serif;
+}
+
+body{
+    background: url('../images/backiee-265661-landscape.jpg')no-repeat center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container{
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    padding: 15px 30px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0,2);
+}
+.login-container h1{
+    margin-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 20px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.input-box{
+    position: relative;
+    margin: 15px 0;
+    text-align:left;
+    font-size: small;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.input-box input{
+    width: 100%;
+    padding: 10px 35px 10px 10px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+.input-box ::placeholder{
+    color: #ffffff;
+}
+
+.input-box i{
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.options a{
+    color: #96f3d4;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    background: #fff;
+    color: black;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover{
+    background: #919090;
+}
+
+.register-link{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.register-link a{
+    color: #96f3d4;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
