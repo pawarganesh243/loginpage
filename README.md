@@ -10,7 +10,7 @@ A beautiful, responsive login page built using only HTML and CSS — with a mode
 ## 📸 Screenshot
 
 ![image](https://github.com/user-attachments/assets/83d50781-491a-46fa-a7dd-eae8965c23e8)
-](./images/backiee-265661-landscape.jpeg)
+(./images/backiee-265661-landscape.jpeg)
 
 ---
 
