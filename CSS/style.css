@@ -29,7 +29,7 @@ body{
     padding: 15px 30px;
     color: #ffffff;
     text-align: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0,2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
 }
 .login-container h1{
     margin-bottom: 20px;
@@ -111,3 +111,14 @@ button:hover{
     text-decoration: none;
 }
 
+@media screen and (max-width:480px) {
+    .login-container{
+        padding: 25px 15px;
+    }
+    .input-box input{
+        font-size: 15px;
+    }
+    button{
+        font-size: 15px;
+    }
+}
